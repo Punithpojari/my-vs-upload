@@ -2,6 +2,8 @@
 
 DecodeLabsPPRobot is a simple AI-inspired command-line chatbot developed in Python. It interacts with users by recognizing predefined keywords and responding with relevant information using a keyword-matching approach. The chatbot also simulates human-like conversation with a typing effect and timestamps for responses.
 
+MY FIRST PROJECT 
+
 ## 📌 Features
 - 👋 Greets users with personalized messages.
 - 💬 Responds to common greetings.
@@ -129,8 +131,115 @@ Goodbye! Have a great day!
 
 Python Developer | AI Enthusiast | Computer Science Student
 
----
+MY SECOND PROJECT
 
-## 📄 License
+# Data Classification Using AI
 
-This project is created for educational and learning purposes.
+A simple AI classification project implemented in **pure Python** without using external libraries. This project demonstrates the basic concepts of supervised machine learning using the **1-Nearest Neighbor (1-NN)** classification algorithm and Euclidean Distance.
+
+## 📌 Project Overview
+
+This project classifies data into different categories based on the nearest training sample. It is designed for beginners to understand how a basic AI classification model works without relying on machine learning frameworks such as Scikit-learn.
+
+## 🚀 Features
+
+- Pure Python implementation
+- No external libraries used
+- Uses Euclidean Distance for classification
+- Splits dataset into training and testing data
+- Predicts class labels
+- Calculates classification accuracy
+- Beginner-friendly code with comments
+
+## 🛠 Technologies Used
+
+- Python 3
+- Built-in `math` module
+
+## 📂 Project Structure
+
+```
+Data-Classification-Using-AI/
+│── dat.py
+│── README.md
+```
+
+## ⚙️ Algorithm
+
+The project uses the **1-Nearest Neighbor (1-NN)** algorithm.
+
+Steps:
+1. Store the dataset.
+2. Split the dataset into training and testing sets.
+3. Calculate Euclidean distance.
+4. Find the nearest training sample.
+5. Predict the class label.
+6. Compare the prediction with the actual class.
+7. Calculate the overall accuracy.
+
+## 📊 Sample Output
+
+```
+=========================================
+DATA CLASSIFICATION USING AI
+=========================================
+
+Total Samples: 10
+Training Samples: 6
+Testing Samples: 4
+
+Prediction Results
+
+Input: 5.1 3.5 | Actual: A | Predicted: A
+Input: 5.4 3.9 | Actual: A | Predicted: A
+Input: 6.8 3.2 | Actual: B | Predicted: B
+Input: 6.4 3.2 | Actual: B | Predicted: B
+
+Correct Predictions: 4
+Total Test Samples: 4
+Accuracy: 100.0%
+```
+
+## ▶️ How to Run
+
+1. Clone the repository.
+
+```
+git clone https://github.com/your-username/Data-Classification-Using-AI.git
+```
+
+2. Navigate to the project folder.
+
+```
+cd Data-Classification-Using-AI
+```
+
+3. Run the program.
+
+```
+python dat.py
+```
+
+## 🎯 Learning Outcomes
+
+- Supervised Learning basics
+- Data classification
+- Euclidean Distance
+- Nearest Neighbor algorithm
+- Python programming fundamentals
+- Model evaluation
+
+## 📚 Future Improvements
+
+- Support larger datasets
+- Implement K-Nearest Neighbors (KNN)
+- Read data from CSV files
+- Improve dataset splitting
+- Add graphical visualization
+
+## 👨‍💻 Author
+
+**Punith C**
+
+Computer Science Engineering Student
+
